@@ -6,18 +6,7 @@ import React from 'react'
 const Document = () => {
   return (
     <div>
-      <Header>
-        <div>
-          <p className='text-white'>Share</p>
-        </div>
-        <SignedOut>
-          <SignInButton />
-        </SignedOut>
-        <SignedIn>
-          <UserButton />
-        </SignedIn>
-      </Header>
-      <Editor/>
+      
     </div>
   )
 }
